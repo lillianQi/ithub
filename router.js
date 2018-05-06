@@ -12,12 +12,12 @@ const user = require('./controllers/user');
 // 3.创建路由表
 // 首页模块
 router.get('/', index.showIndex)
-  .get('/index.html', index.showIndex);
+      .get('/index.html', index.showIndex);
 //用户模块
 router.get('/singnin', user.showSignin).
-  post('/signin', user.handleSignin).
-  get('/signup', user.showSignup).
-  post('/signup', user.handleSignup).
-  post('/signout', user.handleSignout);
+       post('/signin', user.handleSignin).
+       get('/signup', user.showSignup).
+       post('/signup', user.handleSignup).
+       post('/signout', user.handleSignout);
 // 4.把路由输出
-module.express = router; 
+module.exports = router; 

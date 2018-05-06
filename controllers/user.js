@@ -10,10 +10,10 @@ module.exports.showSignup = (req, res) => {
   res.render('register.html');
 }
 
-module.exports.handleSignin = (req, res) => {
+module.exports.handleSignup = (req, res) => {
   res.send('处理注册的请求');
 }
 
-module.exports.showSignout = (req, res) => {
+module.exports.handleSignout = (req, res) => {
   res.send('处理退出请求');
 }
