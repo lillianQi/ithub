@@ -1,0 +1,23 @@
+{
+  "name": "ithub",
+  "version": "1.0.0",
+  "description": "这是一个 Node.js + Express + mysql 的 多人博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillianQi/ithub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillianQi/ithub/issues"
+  },
+  "homepage": "https://github.com/lillianQi/ithub#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
